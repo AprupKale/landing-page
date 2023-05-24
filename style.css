@@ -1,0 +1,154 @@
+* {
+    font-family: 'Courier New', Courier, monospace
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: auto;
+    width: 300px;
+    margin: 16px;
+}
+
+.links ul {
+    list-style-type: none;
+    display: flex;
+    margin: 16px;
+    gap: 32px;
+}
+
+.links a {
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.content {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    margin: 32px;
+    padding: 32px;
+    flex: 1 1 auto;
+}
+
+.info h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.info p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.content img {
+    max-width: 600px;
+    flex: 1 1 auto;
+    padding: 32px; 
+}
+
+.info .button {
+    color: #e5e7eb;
+    background-color: #3882f6;  
+    text-decoration: none;
+    border: #3882f6 8px solid;
+    border-radius: 8px;
+}
+
+.albums h1 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+    text-align: center;
+    margin: 32px;
+}
+
+.albums-and-captions {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin: 32px;
+}
+
+.albums-and-captions .album {
+    flex: 1 1 0;
+    text-align: center;
+    color: gray;
+}
+
+.album img {
+    border: #3882f6 4px solid;
+    border-radius: 32px;
+}
+
+.quotation {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quotation .quote {
+    font-size: 24px;
+    font-style: italic;
+    color: gray;
+    width: 40%;
+}
+
+.quotation .author {
+    font-size: 20px;
+    color: #1f2937;
+    font-weight: bold;
+    width: 40%;
+    text-align: right;
+}
+
+.sign-up {
+    align-self: center;
+    background-color: #3882f6;
+    padding: 32px;
+    margin: 32px;
+    border-radius: 16px;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.sign-up-prompt h4 {
+    font-weight: bold;
+}
+
+.sign-up .button {
+    color: #e5e7eb;
+    background-color: #3882f6;  
+    text-decoration: none;
+    border: #e5e7eb 2px solid;
+    border-radius: 8px;
+    padding: 8px 32px;
+}
+
+footer {
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #e5e7eb;
+    text-align: center;
+}
