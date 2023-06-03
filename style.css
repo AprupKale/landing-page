@@ -1,5 +1,5 @@
 * {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Permanent Marker', cursive;
 }
 
 body {
@@ -67,7 +67,7 @@ body {
 
 .info .button {
     color: #e5e7eb;
-    background-color: #3882f6;  
+    background-color: #3882f6;
     text-decoration: none;
     border: #3882f6 8px solid;
     border-radius: 8px;
@@ -142,7 +142,7 @@ body {
 
 .sign-up .button {
     color: #e5e7eb;
-    background-color: #3882f6;  
+    background-color: #3882f6;
     text-decoration: none;
     border: #e5e7eb 2px solid;
     border-radius: 8px;
